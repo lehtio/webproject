@@ -17,10 +17,10 @@ const App = () => {
               <Link to="/" className="nav-item">Home</Link>
             </li>
             <li>
-              <Link to="/cv" className="nav-item">CV</Link>
+              <Link to="/cv" className="nav-item">Kuka mä oon?</Link>
             </li>
             <li>
-              <Link to="/studies" className="nav-item">Studies</Link>
+              <Link to="/studies" className="nav-item">Opiskelukorneri</Link>
             </li>
           </ul>
         </nav>
