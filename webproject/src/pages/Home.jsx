@@ -10,6 +10,10 @@ const Home = () => {
         </p>
         <p>Ja onhan tämä nettisivujen puuhailu kieltämättä ihan mukavaa puuhaa silloin tällöin toteutettuna, joten tervetuloa salaisuuksien kammioon.
         </p>
+        <p>Myönnettäköön tässä alkuvaiheessa, että näiden sivujen idea on koota opiskeluun liittyviä materiaaleja kavereille yhteen paikkaan,
+          joten koodin kauneus tulee toistaiseksi perässä. Ajatuksena on ensin täyttää sivut asioilla, joita tänne haluan ja sitten parannella ja kehittää 
+          koodin laatua ja sivujen ominaisuuksia. Sikäli mikäli aika riittää, pohdin upottaa tänne myös pikkuprojekteja ja muita testejä ihan omaksi huviksi. Se tutkii ketä kiinnostaa :)
+        </p>
       </div>
     );
   };
