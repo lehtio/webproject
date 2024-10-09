@@ -1,0 +1,46 @@
+
+.flashcard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    text-align: center;
+    max-width: 600px;
+    margin-bottom: 20px;
+  }
+  
+  a {
+    color: #bddfe0;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .prev-button, .next-button {
+    background-color: #707375;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .prev-button:hover, .next-button:hover {
+    background-color: #2980b9;
+  }
+  
