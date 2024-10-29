@@ -1,11 +1,21 @@
 import React from 'react';
-import './Mallipolku.css';
+import '../styles/Mallipolku.css';
 
 const Mallipolku = () => {
   return (
     <div className="studies-container">
       <h1>Vaihtoehtoinen mallipolku tieto- ja ohjelmistotekniikan kandiin</h1>
-
+      <p>Huomioithan että tämä ei ole yliopiston ohjeistama opintopolku, mutta omalla kokemuksella muotoiltu suositus. 
+          Tätä saa hyödyntää tai olla hyödyntämättä. Sitten kun löydän aikaa, yritän kirjoitella jokaisesta kurssista pientä tiivistystä,
+          mitä kurssiin on kuulunut ja oliko kurssi mielestäni työläs. 
+      </p>
+      <p>Jos aikaa ja intoa riittää, voisin tehdä myös vaihtoehtoisen mallipolun niille, jotka haluaisivat lähteä vaihtoon kandin tutkinnon 
+        aikana, mutta jotka haluaisivat kuitenkin valmistua kandiksi aikataulussa.
+      </p>
+      <h2>Otathan huomioon, että kurssien järjestämisen ajankohta (periodi) voi muuttua. Lukuvuonna 23-24 ohjelmistotuotannon kurssi järjestettiin 
+        4 periodissa, mutta lukuvuonna 24-25 kyseinen kurssi järjestetään 2 periodissa.
+      </h2>
+      
       <table className="study-plan">
         <thead>
           <tr>

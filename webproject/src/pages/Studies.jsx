@@ -31,11 +31,12 @@ const Studies = () => {
 
   return (
     <div className="flashcard-container">
+      
       <h1>Ai sää tarttisit jotain opiskeluun liittyviä matskuja?</h1>
       <p>
         Lisäilen tänne opintoja helpottavia dokkareita ja muuta kivaa kunhan
         sivujen rakentaminen etenee. Ajatuksena on ainakin lisätä omasta kokemuksesta suositeltava opintojen rakenne tieto- ja ohjelmistotekniikan kandin tutkintoon.
-      </p>
+      Sisällöt täytynee jaksottaa jotenkin järkevästi tänne, voi olla että esimerkiksi erillinen tietorakenne tai dropdown valikko voisi olla ihan fiksu idea.</p>
       
       <p>
         Linkistä pääset Quizletistä löytyvään Olio-ohjelmoinnin kurssin
@@ -51,7 +52,7 @@ const Studies = () => {
         opetusmateriaaleihin. Alla myös ite tehty vastaava jos Quizlet ei
         nappaa.
       </p>
-
+      
       <h2>Olio-ohjelmoinnin käsitteet</h2>
       <Flashcard
         term={flashcards[currentCardIndex].term}

@@ -1,5 +1,5 @@
 import React from 'react';
-import './Flashcard.css'; // Flashcardin tyylit
+import '../styles/Flashcard.css'; // Flashcardin tyylit
 
 const Flashcard = ({ term, definition, showDefinition }) => {
   return (

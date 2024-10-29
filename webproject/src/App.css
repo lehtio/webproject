@@ -37,9 +37,8 @@
   color: #ffb6c1; /* vaaleanpunainen väri aktiiviselle sivulle, ei toimi */
 }
 
-/* Lisää yläreunaan marginaalia, jotta sisältö ei jää navbarin alle */
 .App {
-  margin-top: 60px; /* navbaarin korkeus */
+  /* margin-top: 500px; Poista tämä rivi */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -47,6 +46,7 @@
   padding: 20px;
   text-align: center;
 }
+
 
 .weather {
   background-color: #f0f8ff;

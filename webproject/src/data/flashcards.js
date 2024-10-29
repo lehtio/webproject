@@ -1,3 +1,4 @@
+// nämä voisi siirtää tietokantaan
 const flashcards = [
     {
       term: 'Olio',

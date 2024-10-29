@@ -3,7 +3,7 @@ import slushImage from '../assets/slush.png';
 import fortumImage from '../assets/fortum.png';
 import natoImage from '../assets/nato.png'
 import algoImage from '../assets/algo.png'
-import '../Cv.css'; 
+import '../styles/Cv.css'; 
 
 const Cv = () => {
   return (

@@ -12,6 +12,9 @@ const Exchange = () => {
         <p>Hehei, täältä löytynee aikanaan vaihtosisältöä Itävallasta.</p>
         
         <p>Jos hyvin käy, tänne voisi lisätä myös muistilistan ja vinkit vaihtoon lähtevälle</p>
+        <p>Opintosivuilta löytyy myös vaihtoehtoinen opintosuunnitelma, josta voi olla iloa sikäli mikäli mietit vaihtoon
+          lähtöä ja haluat valmistua kandiksi 3 vuodessa.
+        </p>
       </div>
     </div>
   );
