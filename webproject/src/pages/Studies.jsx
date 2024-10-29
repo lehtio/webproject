@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Flashcard from '../components/Flashcard'; // Tuodaan Flashcard-komponentti
 import flashcards from '../data/flashcards'; // Tuodaan flashcard-tiedot
 import '../styles/Studies.css'; // Tyylit
+import Mallipolku from '../components/Mallipolku'
 
 const Studies = () => {
   const [currentCardIndex, setCurrentCardIndex] = useState(0);
@@ -33,7 +34,7 @@ const Studies = () => {
       <h1>Ai sää tarttisit jotain opiskeluun liittyviä matskuja?</h1>
       <p>
         Lisäilen tänne opintoja helpottavia dokkareita ja muuta kivaa kunhan
-        sivujen rakentaminen etenee.
+        sivujen rakentaminen etenee. Ajatuksena on ainakin lisätä omasta kokemuksesta suositeltava opintojen rakenne tieto- ja ohjelmistotekniikan kandin tutkintoon.
       </p>
       
       <p>
@@ -69,12 +70,12 @@ const Studies = () => {
         <button onClick={handleFlip} className="flip-button">
           {showDefinition ? 'Show Term' : 'Show Definition'}
         </button>
-
         {/* Seuraava kortti */}
         <button onClick={handleNextCard} className="next-button">
           Next &#8594;
         </button>
       </div>
+      <Mallipolku />
     </div>
   );
 };

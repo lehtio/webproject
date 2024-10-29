@@ -1,0 +1,37 @@
+.studies-container {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .study-plan {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .study-plan th,
+  .study-plan td {
+    padding: 15px;
+    border: 1px solid #ccc;
+    vertical-align: top;
+    text-align: left;
+  }
+  
+  .study-plan th {
+    background-color: #d9e2ec;
+    font-weight: bold;
+  }
+  
+  .study-plan td {
+    background-color: #f5f8fa;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  .study-plan td * {
+    font-size: 12px;
+    color: #555;
+  }
+  
