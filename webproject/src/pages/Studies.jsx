@@ -59,7 +59,7 @@ const Studies = () => {
       />
 
       {/* Nappulat rivissä */}
-      <div className="button-row">
+      <div className="button-row"> 
         {/* Edellinen kortti */}
         <button onClick={handlePrevCard} className="prev-button">
           &#8592; Prev
