@@ -64,3 +64,66 @@
   margin: 5px 0;
   color: #555;
 }
+
+/* Asettelu Exchange-sivulle */
+.exchange-container {
+  display: flex;
+  justify-content: center; 
+  align-items: flex-start;
+  gap: 20px; 
+  margin-top: 20px;
+  padding: 20px;
+  flex-direction: row; /* Sivupalkki on oikealla oletuksena */
+}
+
+
+.main-content {
+  max-width: 600px; 
+  text-align: center; 
+}
+
+
+.sidebar {
+  flex-shrink: 0;
+  width: 250px; 
+  background-color: #f0f8ff;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+/* ivupalkki ylös, jos se vie yli 30 % näytön leveydestä */
+@media (max-width: 850px) {
+  .exchange-container {
+    flex-direction: column; 
+    align-items: center; 
+  }
+
+  .sidebar {
+    width: 100%;
+    margin-bottom: 20px; 
+}
+
+.weather {
+  background-color: #f0f8ff;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.weather h2 {
+  color: #333;
+}
+
+.weather p {
+  margin: 5px 0;
+  color: #555;
+}
+
+/* Kuvakkeen tyylit */
+.weather-icon {
+  width: 80px; /* Kuvakkeen koko */
+  height: auto;
+  margin: 10px 0;
+}}

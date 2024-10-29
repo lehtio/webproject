@@ -25,17 +25,15 @@ const Weather = () => {
     fetchWeather();
   }, []);
 
-  if (loading) {
-    return <p>Ladataan säätietoja...</p>;
-  }
+  if (loading) {return <p>Ladataan säätietoja...</p>;}
 
-  if (!weatherData) {
-    return <p>Virhe säädatan hakemisessa.</p>;
-  }
+  if (!weatherData) {return <p>Virhe säädatan hakemisessa.</p>;}
+  const iconUrl = `https://openweathermap.org/img/wn/${weatherData.weather[0].icon}@2x.png`;
 
   return (
     <div className="weather">
       <h2>Sää Grazissa</h2>
+      <img src={iconUrl} alt="Sään kuvake" className="weather-icon" />
       <p>Lämpötila: {weatherData.main.temp} °C</p>
       <p>Kosteus: {weatherData.main.humidity} %</p>
       <p>Kuvaus: {weatherData.weather[0].description}</p>
