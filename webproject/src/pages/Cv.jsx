@@ -3,6 +3,8 @@ import slushImage from '../assets/slush.png';
 import fortumImage from '../assets/fortum.png';
 import natoImage from '../assets/nato.png'
 import algoImage from '../assets/algo.png'
+import duolingoImage from '../assets/duolingo.jpg'
+
 import '../styles/Cv.css'; 
 
 const Cv = () => {
@@ -18,9 +20,10 @@ const Cv = () => {
       <h1>Mitä oon touhunnut elämälläni</h1>
       <p>Tänne tulee cv ja osaamisen kuvaamista sitten kun kerkeää. Ensimmäisenä on tarkoitus kumminkin täyttää opintokornerin sisältöä ja puuhata devaamista.</p>
       
-      <p>
-        I have experience in software development, working with various technologies such as React, Node.js, and more.
-      </p>
+   
+      <img src={duolingoImage}/>
+
+      <p>Certified duolingo addikti</p>
     </div>
   );
 };

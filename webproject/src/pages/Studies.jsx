@@ -3,6 +3,7 @@ import Flashcard from '../components/Flashcard'; // Tuodaan Flashcard-komponentt
 import flashcards from '../data/flashcards'; // Tuodaan flashcard-tiedot
 import '../styles/Studies.css'; // Tyylit
 import Mallipolku from '../components/Mallipolku'
+import Fullstack from '../components/Fullstack'
 
 const Studies = () => {
   const [currentCardIndex, setCurrentCardIndex] = useState(0);
@@ -76,7 +77,9 @@ const Studies = () => {
           Next &#8594;
         </button>
       </div>
+
       <Mallipolku />
+      <Fullstack/>
     </div>
   );
 };
