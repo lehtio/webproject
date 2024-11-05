@@ -1,4 +1,4 @@
-const kandiLinkit = [
+const kandiAiheet = [
     // Kyber
     {
         aihe: 'Zero Trust -arkkitehtuuri organisaation kyberturvallisuudessa',
@@ -180,4 +180,4 @@ const kandiLinkit = [
     }
 ];
 
-export default kandiLinkit;
+export default kandiAiheet;

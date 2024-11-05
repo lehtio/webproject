@@ -1,0 +1,68 @@
+/* Täällä määritellään kandiin liittyvät tyylit */
+
+.container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 18px;
+    color: #555;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    color: palevioletred;
+}
+
+.search-input, .category-select {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: palevioletred;
+}
+
+.search-input {
+    margin-right: 10px;
+    flex: 1;
+}
+
+.category-select {
+    min-width: 150px;
+}
+
+.results-list {
+    list-style-type: none;
+    padding: 0;
+ 
+}
+
+.result-item {
+    padding: 10px;
+    border-bottom: 1px solid #e0e0e0;
+    
+}
+
+.result-item em {
+    color: #888;
+    color: pink;
+}
