@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/Mallipolku.css';
 
+// saisikohan tästä taas tietokannan? Tähän tullaan väähntämään joku fiksumpi rakenne
 const Mallipolku = () => {
   return (
     <div className="studies-container">

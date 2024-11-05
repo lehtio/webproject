@@ -4,6 +4,7 @@ import flashcards from '../data/flashcards'; // Tuodaan flashcard-tiedot
 import '../styles/Studies.css'; // Tyylit
 import Mallipolku from '../components/Mallipolku'
 import Fullstack from '../components/Fullstack'
+import Kandi from '../components/Kandi';
 
 const Studies = () => {
   const [currentCardIndex, setCurrentCardIndex] = useState(0);
@@ -53,6 +54,8 @@ const Studies = () => {
         opetusmateriaaleihin. Alla myös ite tehty vastaava jos Quizlet ei
         nappaa.
       </p>
+
+
       
       <h2>Olio-ohjelmoinnin käsitteet</h2>
       <Flashcard
@@ -77,7 +80,8 @@ const Studies = () => {
           Next &#8594;
         </button>
       </div>
-
+    
+      <Kandi/>
       <Mallipolku />
       <Fullstack/>
     </div>
