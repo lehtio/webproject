@@ -40,6 +40,7 @@ const Studies = () => {
         sivujen rakentaminen etenee. Ajatuksena on ainakin lisätä omasta kokemuksesta suositeltava opintojen rakenne tieto- ja ohjelmistotekniikan kandin tutkintoon.
       Sisällöt täytynee jaksottaa jotenkin järkevästi tänne, voi olla että esimerkiksi erillinen tietorakenne tai dropdown valikko voisi olla ihan fiksu idea.</p>
       
+      Nämä varmaan joskus eriytetään omille sivuille / sivustolle täytynee laittaa oma navigointinsa
       <p>
         Linkistä pääset Quizletistä löytyvään Olio-ohjelmoinnin kurssin
         käsitteiden{' '}
