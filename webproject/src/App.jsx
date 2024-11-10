@@ -3,7 +3,7 @@ import Home from './pages/Home';
 import Cv from './pages/Cv';
 import Studies from './pages/Studies';
 import Exchange from './pages/Exchange';
-import YkData from './pages/YkData';
+import MaailmanSaa from './pages/MaailmanSaa';
 import './App.css';
 
 const App = () => {
@@ -26,7 +26,7 @@ const App = () => {
               <Link to="/studies" className="nav-item">Opiskelukorneri</Link>
             </li>
             <li>
-            <Link to="/YkData" className="nav-item">YkData</Link>
+            <Link to="/MaailmanSaa" className="nav-item">Maailmansää</Link>
             </li>
           </ul>
         </nav>
@@ -37,7 +37,7 @@ const App = () => {
           <Route path="/cv" element={<Cv />} />
           <Route path="/exchange" element={<Exchange />} />
           <Route path="/studies" element={<Studies />} />
-          <Route path="/YkData" element={<YkData />} />
+          <Route path="/MaailmanSaa" element={<MaailmanSaa />} />
         </Routes>
       </div>
     </Router>
