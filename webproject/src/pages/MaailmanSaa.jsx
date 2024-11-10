@@ -1,6 +1,6 @@
 // src/pages/MaailmanSaa.jsx
 import React, { useEffect, useState } from 'react';
-import { MapContainer, TileLayer, Marker, Popup, useMap, useMapEvents } from 'react-leaflet';
+import { MapContainer, TileLayer, Marker, useMap, useMapEvents } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import '../styles/kartta.css'; // Importtaa kartta.css tyylitiedosto
 
@@ -52,29 +52,37 @@ const MaailmanSaa = () => {
       <h1 className="page-title">Maailman Sää</h1>
       
       {error && <p>Error: {error}</p>}
-      
-      <div className="map-container">
-        <MapContainer center={[20, 0]} zoom={2} className="leaflet-container">
-          <TileLayer
-            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-            attribution="&copy; OpenStreetMap contributors"
-          />
-          <MapClickHandler />
-          <CenterMap />
 
-          {clickedPosition && weatherData && (
-            <Marker position={[clickedPosition.lat, clickedPosition.lon]}>
-              <Popup>
-                <h2>Sää: {weatherData.name}</h2>
-                <img src={`https://openweathermap.org/img/wn/${weatherData.weather[0].icon}@2x.png`} alt="Weather icon" />
-                <p>Lämpötila: {weatherData.main.temp} °C</p>
-                <p>Kosteus: {weatherData.main.humidity} %</p>
-                <p>Kuvaus: {weatherData.weather[0].description}</p>
-                <p>Tuulen nopeus: {weatherData.wind.speed} m/s</p>
-              </Popup>
-            </Marker>
+      <div className="content-container">
+        <div className="map-container">
+          <MapContainer center={[20, 0]} zoom={2} className="leaflet-container">
+            <TileLayer
+              url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+              attribution="&copy; OpenStreetMap contributors"
+            />
+            <MapClickHandler />
+            <CenterMap />
+
+            {clickedPosition && (
+              <Marker position={[clickedPosition.lat, clickedPosition.lon]} />
+            )}
+          </MapContainer>
+        </div>
+
+        {/* Sääennuste oikealla puolella */}
+        <div className="weather-info">
+          {loading && <p>Ladataan säätietoja...</p>}
+          {weatherData && !loading && (
+            <>
+              <h2>Sää: {weatherData.name}</h2>
+              <img src={`https://openweathermap.org/img/wn/${weatherData.weather[0].icon}@2x.png`} alt="Weather icon" />
+              <p>Lämpötila: {weatherData.main.temp} °C</p>
+              <p>Kosteus: {weatherData.main.humidity} %</p>
+              <p>Kuvaus: {weatherData.weather[0].description}</p>
+              <p>Tuulen nopeus: {weatherData.wind.speed} m/s</p>
+            </>
           )}
-        </MapContainer>
+        </div>
       </div>
     </div>
   );

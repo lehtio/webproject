@@ -8,4 +8,4 @@ Idea sivustoon lähti siitä, että itselle on kertynyt kaikenlaista kivaa opint
 Ainakin toistaiseksi sivusto kloonataan omalle koneelle.   
 Tarvittavat riippuvuudet asennetaan komennolla 'npm install'
 
-Sovellus ajetaan komentoriviltä komennolla 'npm run dev' ja palvelin auki komennolla 'npm run server'(kun serveri on pystyssä) -> ei vielä
+Sovelluksen frontti ajetaan komentoriviltä komennolla 'npm run dev' ja palvelin auki komennolla 'npm run server'(kun serveri on pystyssä) (node server.js)

@@ -1,26 +1,56 @@
-
+/* Sivun perusasetukset */
 html, body {
-    margin: 10 ;
-    padding: 10;
+    margin: 0;
+    padding: 0;
     height: 100%;
     font-family: Arial, sans-serif;
 }
 
+/* Pääsäiliö */
 .page-container {
     width: 80%;
     max-width: 1200px;
     padding: 20px;
+    margin: 0 auto;
 }
 
+/* Kartan säiliö */
 .map-container {
     width: 100%;      
     height: 50vh;
     margin-top: 5vh;    
 }
 
-
+/* Leaflet-kartan oletustyylit */
 .leaflet-container {
     width: 100%;      
     height: 100%;  
     z-index: 1;      
+}
+
+/* Sääboksi keskelle alareunaan */
+.weather-info {
+    position: absolute;
+    bottom: 2vh;              /* Lisää rakoa kartan ja sääboksin väliin */
+    left: 50%;                
+    transform: translateX(-50%); 
+    max-width: 300px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    text-align: center;       
+}
+
+/* Sääinfon otsikko */
+.weather-info h2 {
+    font-size: 20px;
+    margin-top: 0;
+}
+
+/* Sääinfon sisältö */
+.weather-info img {
+    width: 50px;
+    height: 50px;
 }
