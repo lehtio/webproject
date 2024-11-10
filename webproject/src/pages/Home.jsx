@@ -14,6 +14,7 @@ const Home = () => {
           joten koodin kauneus tulee toistaiseksi perässä. Ajatuksena on ensin täyttää sivut asioilla, joita tänne haluan ja sitten parannella ja kehittää 
           koodin laatua ja sivujen ominaisuuksia. Sikäli mikäli aika riittää, pohdin upottaa tänne myös pikkuprojekteja ja muita testejä ihan omaksi huviksi. Se tutkii ketä kiinnostaa :)
         </p>
+        <p>Tänne voisi tehdä myös jonkun open tietokannan hyödyntävän sovelluksen</p>
       </div>
     );
   };
