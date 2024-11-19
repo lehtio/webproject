@@ -8,4 +8,4 @@ Idea sivustoon lähti siitä, että itselle on kertynyt kaikenlaista kivaa opint
 Ainakin toistaiseksi sivusto kloonataan omalle koneelle.   
 Tarvittavat riippuvuudet asennetaan komennolla 'npm install'
 
-Sovelluksen frontti ajetaan komentoriviltä komennolla 'npm run dev' ja palvelin auki komennolla 'npm run server'(kun serveri on pystyssä) (node server.js)
+Sovelluksen frontti ajetaan komentoriviltä komennolla 'npm run dev' ja palvelin auki komennolla 'npm run server'(kun serveri on pystyssä) (node server.js) ja ajautuu http://localhost:3000/weather?lat=47.0707&lon=15.4395
